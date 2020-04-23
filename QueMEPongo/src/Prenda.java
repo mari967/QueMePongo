@@ -34,7 +34,7 @@ public class Prenda {
 
     }
 
-    @Contract("null, _, _ -> fail")
+    @Contract("null, _, _ -> fail")//*
     private void controlAtributosObligatorios(tipoPrenda tipoPrenda, TipoMaterial material, Color colorPrincipal) {
 
         if (tipoPrenda == null) throw new tipoPrendaNuloException("El tipoPrenda debe ser especificado");
