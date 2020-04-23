@@ -1,10 +1,10 @@
 public class Borrador {
 
     private tipoPrenda tipoPrenda;
-    private tipoMaterial material;
+    private TipoMaterial material;
     private Color colorPrincipal;
     private Color colorSecundario;
-    private tramaTela trama;
+    private TramaTela trama;
 
     public tipoPrenda getTipoPrenda() {
         return tipoPrenda;
@@ -14,11 +14,11 @@ public class Borrador {
         this.tipoPrenda = tipoPrenda;
     }
 
-    public tipoMaterial getMaterial() {
+    public TipoMaterial getMaterial() {
         return material;
     }
 
-    public void setMaterial(tipoMaterial material) {
+    public void setMaterial(TipoMaterial material) {
         this.material = material;
     }
 
@@ -38,11 +38,11 @@ public class Borrador {
         this.colorSecundario = colorSecundario;
     }
 
-    public tramaTela getTrama() {
+    public TramaTela getTrama() {
         return trama;
     }
 
-    public void setTrama(tramaTela trama) {
+    public void setTrama(TramaTela trama) {
         this.trama = trama;
     }
 

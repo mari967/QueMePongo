@@ -1,8 +1,9 @@
 import java.util.ArrayList;
+import java.util.List;
 
 public class Atuendo {
 
-    ArrayList<Prenda> conjuntoPrendas = new ArrayList<>();
+    List<Prenda> conjuntoPrendas = new ArrayList<>();
 
     public void agregarPrenda(Prenda unaPrenda) {
 

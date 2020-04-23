@@ -1,1 +1,0 @@
-public enum tramaTela {LISA, RAYADA, CON_LUNARES, CUADROS, ESTAMPADO}

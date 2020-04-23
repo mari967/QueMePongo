@@ -1,1 +1,0 @@
-public enum categoriaPrenda {PARTE_INFERIOR, PARTE_SUPERIOR, CALZADO, ACCESORIO}

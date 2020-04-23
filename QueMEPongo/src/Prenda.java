@@ -5,12 +5,12 @@ import static java.util.Objects.requireNonNull;
 public class Prenda {
 
     private tipoPrenda tipoPrenda;
-    private tipoMaterial material;
+    private TipoMaterial material;
     private Color colorPrincipal;
     private Color colorSecundario;
-    private tramaTela trama = tramaTela.LISA;
+    private TramaTela trama = TramaTela.LISA;
 
-    public Prenda (tipoPrenda tipoPrenda, tipoMaterial material, Color colorPrincipal, tramaTela trama) {
+    public Prenda (tipoPrenda tipoPrenda, TipoMaterial material, Color colorPrincipal, TramaTela trama) {
 
         controlAtributosObligatorios(tipoPrenda, material, colorPrincipal);
 
@@ -22,7 +22,7 @@ public class Prenda {
     }
 
 
-    public Prenda (tipoPrenda tipoPrenda, tipoMaterial material, Color colorPrincipal, Color colorSecundario, tramaTela trama) {
+    public Prenda (tipoPrenda tipoPrenda, TipoMaterial material, Color colorPrincipal, Color colorSecundario, TramaTela trama) {
 
         controlAtributosObligatorios(tipoPrenda, material, colorPrincipal);
 
@@ -35,7 +35,7 @@ public class Prenda {
     }
 
     @Contract("null, _, _ -> fail")
-    private void controlAtributosObligatorios(tipoPrenda tipoPrenda, tipoMaterial material, Color colorPrincipal) {
+    private void controlAtributosObligatorios(tipoPrenda tipoPrenda, TipoMaterial material, Color colorPrincipal) {
 
         if (tipoPrenda == null) throw new tipoPrendaNuloException("El tipoPrenda debe ser especificado");
             this.tipoPrenda = tipoPrenda;
@@ -77,7 +77,6 @@ class tipoPrendaCategoriaNoCondicen extends RuntimeException {
     }
 }
 
-
 class Color {
     int rojo;
     int verde;
@@ -87,21 +86,6 @@ class Color {
         this.rojo = rojo;
         this.verde = verde;
         this.azul = azul;
-    }
-}
-
-enum tipoPrenda {
-    PANTALON(categoriaPrenda.PARTE_INFERIOR), CAMISA(categoriaPrenda.PARTE_SUPERIOR), ZAPATO(categoriaPrenda.CALZADO),
-    REMERA(categoriaPrenda.PARTE_SUPERIOR), CINTURON(categoriaPrenda.ACCESORIO);
-
-    private categoriaPrenda categoria;
-
-    private tipoPrenda(categoriaPrenda categoria) {
-        this.categoria = categoria;
-    }
-
-    public categoriaPrenda getCategoria() {
-        return categoria;
     }
 }
 
