@@ -17,19 +17,22 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/AccuWeatherAPI.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dds/Prenda.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="53">
-              <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+            <state relative-caret-position="373">
+              <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/TerceraIteracionTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/dds/TerceraIteracionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="53" column="41" lean-forward="true" selection-start-line="53" selection-start-column="41" selection-end-line="53" selection-end-column="41" />
+            <state relative-caret-position="240">
+              <caret line="77" column="45" selection-start-line="77" selection-start-column="45" selection-end-line="77" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -38,82 +41,85 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Atuendo.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="254">
+              <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/dds/AppTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/2020-ju-ma-group-08/src/test/java/dds/gesoc/model/OrganizacionesTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/2020-ju-ma-group-08/src/main/java/dds/gesoc/model/organizaciones/Organizacion.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/2020-ju-ma-group-08/src/main/java/dds/gesoc/model/organizaciones/EntidadJuridica.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dds/TipoPrenda.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dds/Uniforme.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dds/Atuendo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="223">
-              <caret line="31" column="69" selection-start-line="31" selection-start-column="69" selection-end-line="31" selection-end-column="69" />
-              <folding>
-                <element signature="e#1235#1236#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Exceptions/TipoPrendaCategoriaNoCondicen.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Exceptions/TipoPrendaNuloException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Exceptions/PrendaNoAptaParaTempActualException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Exceptions/MaterialNuloException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="5" column="5" selection-start-line="3" selection-start-column="1" selection-end-line="5" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Exceptions/ColorPrincipalNuloException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Exceptions/CategoriaPrendaExistenteEnAtuendoException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/AccuProveedorDelClima.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="16" column="52" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
+              <caret line="40" column="54" selection-start-line="40" selection-start-column="54" selection-end-line="40" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#235#236#0" expanded="true" />
-                <element signature="e#291#292#0" expanded="true" />
-                <element signature="e#239#240#0" expanded="true" />
-                <element signature="e#292#293#0" expanded="true" />
+                <element signature="e#1404#1405#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -149,10 +155,10 @@
         <option value="$PROJECT_DIR$/src/main/java/dds/tipoPrenda.java" />
         <option value="$PROJECT_DIR$/src/main/java/dds/TramaTela.java" />
         <option value="$PROJECT_DIR$/src/main/java/dds/Uniforme.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dds/Atuendo.java" />
         <option value="$PROJECT_DIR$/src/main/java/dds/TipoPrenda.java" />
         <option value="$PROJECT_DIR$/src/main/java/dds/Prenda.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/dds/Atuendo.java" />
         <option value="$PROJECT_DIR$/src/test/java/dds/TerceraIteracionTest.java" />
       </list>
     </option>
@@ -163,62 +169,80 @@
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="QueMEPongo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="QueMEPongo" type="462c0819:PsiDirectoryNode" />
+              <item name="QueMePongo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QMP" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="QueMEPongo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="QueMEPongo" type="462c0819:PsiDirectoryNode" />
+              <item name="QueMePongo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QMP" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="QueMEPongo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="QueMEPongo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="QueMEPongo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="QueMEPongo" type="462c0819:PsiDirectoryNode" />
+              <item name="QueMePongo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QMP" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="Exceptions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="QueMEPongo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="QueMEPongo" type="462c0819:PsiDirectoryNode" />
+              <item name="QueMePongo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QMP" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QueMePongo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QMP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dds" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QueMePongo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QMP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dds" type="462c0819:PsiDirectoryNode" />
               <item name="Uniforme.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
-              <item name="QueMEPongo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="QueMEPongo" type="462c0819:PsiDirectoryNode" />
+              <item name="QueMePongo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QMP" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="QueMEPongo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="QueMePongo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QMP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QueMePongo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QMP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dds" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="RunDashboard">
@@ -233,7 +257,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.TerceraIteracionTest.unaCamperaEsAptaConTempBaja">
+    <configuration name="TerceraIteracionTest.unaCamperaEsAptaConTempBaja" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QMP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dds.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dds" />
+      <option name="MAIN_CLASS_NAME" value="dds.TerceraIteracionTest" />
+      <option name="METHOD_NAME" value="unaCamperaEsAptaConTempBaja" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TerceraIteracionTest.unaCamperaNoEsAptaConTempAlta" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="QMP" />
       <extension name="coverage">
@@ -252,6 +292,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TerceraIteracionTest.unaCamperaEsAptaConTempBaja" />
         <item itemvalue="JUnit.TerceraIteracionTest.unaCamperaNoEsAptaConTempAlta" />
       </list>
     </recent_temporary>
@@ -269,6 +310,17 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="TerceraIteracionTest_unaCamperaNoEsAptaConTempAlta - 2020.05.26 at 17h 56m 35s.xml">
+      <configuration name="TerceraIteracionTest.unaCamperaNoEsAptaConTempAlta" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TerceraIteracionTest_unaCamperaNoEsAptaConTempAlta - 2020.05.26 at 18h 32m 53s.xml">
+      <configuration name="TerceraIteracionTest.unaCamperaNoEsAptaConTempAlta" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TerceraIteracionTest_unaCamperaNoEsAptaConTempAlta - 2020.05.26 at 18h 39m 10s.xml">
+      <configuration name="TerceraIteracionTest.unaCamperaNoEsAptaConTempAlta" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
     <editor active="true" />
@@ -280,17 +332,17 @@
       <window_info id="Image Layers" order="4" />
       <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.24962178" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="5" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Run" order="5" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="right" id="Theme Preview" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
@@ -302,7 +354,13 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/dds/lalalala.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/dds/lalalala.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dds/AccuWeatherAPI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -429,18 +487,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dds/Atuendo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+        <state relative-caret-position="223">
+          <caret line="40" column="54" selection-start-line="40" selection-start-column="54" selection-end-line="40" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1404#1405#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/dds/TerceraIteracionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="68" column="5" lean-forward="true" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
+        <state relative-caret-position="240">
+          <caret line="77" column="45" selection-start-line="77" selection-start-column="45" selection-end-line="77" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

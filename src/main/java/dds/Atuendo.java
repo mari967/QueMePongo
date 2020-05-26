@@ -14,11 +14,11 @@ public class Atuendo {
     List<Prenda> conjuntoPrendas = new ArrayList<>();
     ProveedorDelClima proveedorClima = new AccuProveedorDelClima();
     String ciudadActual;
-    double tempActual;
+
 
     public Atuendo (String ciudad) {
         this.ciudadActual = ciudad;
-        this.tempActual = proveedorClima.getTemperaturaCelcius(ciudad);
+
     }
 
     public void agregarPrenda(Prenda unaPrenda) {
@@ -26,7 +26,7 @@ public class Atuendo {
         if(conjuntoPrendas.stream().anyMatch(prenda -> prenda.getCategoriaPrenda() == unaPrenda.getCategoriaPrenda()))
             throw new CategoriaPrendaExistenteEnAtuendoException("Ya existe una prenda de esta categoria");
 
-        if (unaPrenda.getTipoPrenda().getTempMaximaRecomendada() < tempActual)
+        if (unaPrenda.getTipoPrenda().getTempMaximaRecomendada() < proveedorClima.getTemperaturaCelcius(ciudadActual))
             throw new PrendaNoAptaParaTempActualException("La prenda elegida no es apta para esta temperatura");
 
         conjuntoPrendas.add(unaPrenda);
@@ -34,6 +34,10 @@ public class Atuendo {
 
     public void setProveedorClima(ProveedorDelClima proveedorClima) {
         this.proveedorClima = proveedorClima;
+    }
+
+    public void setCiudadActual(String ciudadActual) {
+        this.ciudadActual = ciudadActual;
     }
 }
 

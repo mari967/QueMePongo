@@ -2,6 +2,7 @@ package dds;
 
 
 import main.Exceptions.CategoriaPrendaExistenteEnAtuendoException;
+import main.Exceptions.PrendaNoAptaParaTempActualException;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
@@ -17,6 +18,7 @@ public class TerceraIteracionTest {
 
     private Atuendo unAtuendo;
     private ProveedorDelClima proveedorAccu;
+    ProveedorDelClima mockitoProveedor;
     private Prenda zapatillasRojas;
     private Prenda remeraAzul;
     private Prenda otraRemera;
@@ -28,6 +30,8 @@ public class TerceraIteracionTest {
     public void init() {
         proveedorAccu = new AccuProveedorDelClima();
         unAtuendo = new Atuendo(CIUDAD_BS_AS);
+
+        mockitoProveedor = mock(ProveedorDelClima.class);
 
         accu = new AccuWeatherAPI();
 
@@ -58,11 +62,18 @@ public class TerceraIteracionTest {
      unAtuendo.agregarPrenda(otraRemera);
     }
 
-    @Test
+    @Test (expected = PrendaNoAptaParaTempActualException.class)
     public void unaCamperaNoEsAptaConTempAlta() { //Acá mockeamos el proveedor del clima
-        ProveedorDelClima mockitoProveedor = mock(ProveedorDelClima.class);
-        when(mockitoProveedor.getTemperaturaCelcius(CIUDAD_BS_AS)).thenReturn(24.1);
 
+        when(mockitoProveedor.getTemperaturaCelcius(CIUDAD_BS_AS)).thenReturn(24.1);
+        unAtuendo.setProveedorClima(mockitoProveedor);
+        unAtuendo.agregarPrenda(camperaGruesa);
+
+    }
+
+    @Test
+    public void unaCamperaEsAptaConTempBaja() {
+        when(mockitoProveedor.getTemperaturaCelcius(CIUDAD_BS_AS)).thenReturn(4.1);
         unAtuendo.setProveedorClima(mockitoProveedor);
         unAtuendo.agregarPrenda(camperaGruesa);
 
