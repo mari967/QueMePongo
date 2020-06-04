@@ -1,5 +1,3 @@
-
-
 package dds;
 import main.Exceptions.CategoriaPrendaExistenteEnAtuendoException;
 import main.Exceptions.PrendaNoAptaParaTempActualException;
@@ -7,12 +5,14 @@ import main.Exceptions.PrendaNoAptaParaTempActualException;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.time.Duration;
 
 public class Atuendo {
 
 ////atuendos que tengan una prenda para cada categoría
     List<Prenda> conjuntoPrendas = new ArrayList<>();
-    ProveedorDelClima proveedorClima = new AccuProveedorDelClima();
+    ProveedorDelClima proveedorClima = new AccuProveedorDelClima(Duration.ofHours(99));
+
     String ciudadActual;
 
 

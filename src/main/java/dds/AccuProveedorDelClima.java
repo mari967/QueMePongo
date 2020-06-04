@@ -1,15 +1,35 @@
 package dds;
 
+import dds.AccuWeatherAPI;
+import dds.ProveedorDelClima;
+
+import java.time.Duration;
+import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Map;
 
 public class AccuProveedorDelClima implements ProveedorDelClima {
 
-    AccuWeatherAPI apiAccuWeather = new AccuWeatherAPI();
+    private AccuWeatherAPI apiAccuWeather = new AccuWeatherAPI();
+    private Duration periodoValidezHoras;
+    private LocalDateTime proximaExpiracion;
+    private List<Map<String, Object>> ultimaCondicionClimatica;
 
+    public AccuProveedorDelClima(Duration horasDeValidez) {
+        this.periodoValidezHoras = horasDeValidez;
+    }
 
     private List<Map<String, Object>> condicionesClimaticas(String ciudad) {
-        return apiAccuWeather.getWeather(ciudad);
+        if(expirado(proximaExpiracion) || ultimaCondicionClimatica == null)
+            return ultimaCondicionClimatica;
+
+        ultimaCondicionClimatica = apiAccuWeather.getWeather(ciudad);
+        proximaExpiracion = LocalDateTime.now().plus(this.periodoValidezHoras);
+        return ultimaCondicionClimatica;
+    }
+
+    private boolean expirado(LocalDateTime fechaHora) {
+        return fechaHora.isAfter(LocalDateTime.now());
     }
 
     @Override

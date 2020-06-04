@@ -1,11 +1,13 @@
 package dds;
 
 
-import main.Exceptions.CategoriaPrendaExistenteEnAtuendoException;
-import main.Exceptions.PrendaNoAptaParaTempActualException;
+import dds.Exceptions.CategoriaPrendaExistenteEnAtuendoException;
+import dds.Exceptions.PrendaNoAptaParaTempActualException;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
+
+import java.time.Duration;
 
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
@@ -28,7 +30,7 @@ public class TerceraIteracionTest {
 
     @Before
     public void init() {
-        proveedorAccu = new AccuProveedorDelClima();
+        proveedorAccu = new AccuProveedorDelClima(Duration.ofMinutes(160));
         unAtuendo = new Atuendo(CIUDAD_BS_AS);
 
         mockitoProveedor = mock(ProveedorDelClima.class);

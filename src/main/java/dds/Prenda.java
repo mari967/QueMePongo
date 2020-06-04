@@ -2,7 +2,6 @@ package dds;
 
 import main.Exceptions.ColorPrincipalNuloException;
 import main.Exceptions.MaterialNuloException;
-import main.Exceptions.TipoPrendaNuloException;
 
 import static java.util.Objects.requireNonNull;
 
@@ -41,7 +40,7 @@ public class Prenda {
 
     private void controlAtributosObligatorios(TipoPrenda tipoPrenda, TipoMaterial material, Color colorPrincipal) {
 
-        if (tipoPrenda == null) throw new TipoPrendaNuloException("El main.TipoPrenda debe ser especificado");
+        if (tipoPrenda == null) throw new main.Exceptions.TipoPrendaNuloExceptionException("El main.TipoPrenda debe ser especificado");
             this.tipoPrenda = tipoPrenda;
         if (material == null) throw new MaterialNuloException( "El material debe ser especificado");
             this.material = material;
@@ -58,4 +57,7 @@ public class Prenda {
         return tipoPrenda.getCategoria();
     }
 
+    public double getTempMaxPrenda() {
+        return tipoPrenda.getTempMaximaRecomendada();
+    }
 }
