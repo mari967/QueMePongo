@@ -2,42 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fb36386-989d-45af-8733-7d2255780139" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator-enh.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dds/ClasificadorRopaVerano.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dds/Guardarropa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QueMePongo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/QueMePongo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/AccuProveedorDelClima.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/AccuWeatherAPI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Atuendo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Borrador.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/CategoriaPrenda.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Color.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Prenda.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/ProveedorDelClima.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/TipoMaterial.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/TramaTela.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Uniforme.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dds/AccuProveedorDelClima.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dds/AccuProveedorDelClima.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dds/Atuendo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dds/Atuendo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dds/Exceptions/CategoriaPrendaExistenteEnAtuendoException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dds/Exceptions/CategoriaPrendaExistenteEnAtuendoException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dds/Exceptions/ColorPrincipalNuloException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dds/Exceptions/ColorPrincipalNuloException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dds/Exceptions/MaterialNuloException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dds/Exceptions/MaterialNuloException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dds/Exceptions/PrendaNoAptaParaTempActualException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dds/Exceptions/PrendaNoAptaParaTempActualException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dds/Exceptions/TipoPrendaCategoriaNoCondicen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dds/Exceptions/TipoPrendaCategoriaNoCondicenException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dds/Exceptions/TipoPrendaNuloException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dds/Exceptions/TipoPrendaNuloExceptionException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dds/Prenda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dds/Prenda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dds/TipoPrenda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dds/TipoPrenda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/tipoPrenda.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/PrimeraIteracionTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/SegundaIteracionTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/TerceraIteracionTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/dds/TerceraIteracionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dds/TerceraIteracionTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -69,8 +34,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dds/Usuario.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="458">
-              <caret line="30" column="45" lean-forward="true" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
+            <state relative-caret-position="407">
+              <caret line="27" column="46" lean-forward="true" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#274#275#0" expanded="true" />
@@ -107,6 +72,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="136">
+                <caret line="8" selection-start-line="8" selection-end-line="8" />
+              </first_editor>
+              <second_editor>
+                <markdownNavigatorState>
+                  <previewPanelState version="3.0.191.72">
+                    <jsState>{&quot;onLoadScroll&quot;:{&quot;x&quot;:0,&quot;y&quot;:39.21495999999999}}</jsState>
+                  </previewPanelState>
+                </markdownNavigatorState>
+              </second_editor>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dds/PropuestaPrenda.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
@@ -138,20 +121,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dds/ClasificadorRopaEntrecasa.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="21" column="71" selection-start-line="21" selection-start-column="71" selection-end-line="21" selection-end-column="71" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#844#845#0" expanded="true" />
-                <element signature="e#879#880#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -226,6 +195,7 @@
         <option value="$PROJECT_DIR$/src/main/java/dds/TipoDePropuesta.java" />
         <option value="$PROJECT_DIR$/src/main/java/dds/PropuestaPrenda.java" />
         <option value="$PROJECT_DIR$/src/main/java/dds/Usuario.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -409,7 +379,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
@@ -490,16 +460,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/ProveedorDelClima.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/AccuWeatherAPI.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/ProveedorDelClima.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/AccuWeatherAPI.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -507,13 +469,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Atuendo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Atuendo.java" />
     <entry file="file://$USER_HOME$/Desktop/2020-ju-ma-group-08/src/main/java/dds/gesoc/model/organizaciones/Organizacion.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -541,52 +497,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="187">
-            <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState>
-              <previewPanelState version="3.0.191.72">
-                <jsState>{&quot;onLoadScroll&quot;:{&quot;x&quot;:0,&quot;y&quot;:45.78037999999998}}</jsState>
-              </previewPanelState>
-            </markdownNavigatorState>
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/TerceraIteracionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="48" column="11" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/SegundaIteracionTest.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/AccuProveedorDelClima.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#915#916#0" expanded="true" />
-            <element signature="e#971#972#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/TerceraIteracionTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/SegundaIteracionTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/AccuProveedorDelClima.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/dds/ProveedorDelClima.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -772,8 +685,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dds/Usuario.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="30" column="45" lean-forward="true" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
+        <state relative-caret-position="407">
+          <caret line="27" column="46" lean-forward="true" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#274#275#0" expanded="true" />
@@ -790,6 +703,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="136">
+            <caret line="8" selection-start-line="8" selection-end-line="8" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState>
+              <previewPanelState version="3.0.191.72">
+                <jsState>{&quot;onLoadScroll&quot;:{&quot;x&quot;:0,&quot;y&quot;:39.21495999999999}}</jsState>
+              </previewPanelState>
+            </markdownNavigatorState>
+          </second_editor>
         </state>
       </provider>
     </entry>
