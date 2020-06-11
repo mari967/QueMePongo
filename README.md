@@ -12,4 +12,8 @@ Diagrama de clases:
 [Enunciado segunda iteración](https://docs.google.com/document/d/10j6XB9zIhl5xox2xBEDEFsgPmueHMkyvLSHcLxl_27Y/edit)
 
 
-[Enunciado tercera iteración](https://docs.google.com/document/d/1sy9S9EeIQr8fhatKnfTCgOfjVniJDu2viI-Av0gn0xY/edit#heading=h.uyku9mnteh0t)
+[Enunciado cuarta (tercera) iteración](https://docs.google.com/document/d/1sy9S9EeIQr8fhatKnfTCgOfjVniJDu2viI-Av0gn0xY/edit#heading=h.uyku9mnteh0t)
+
+[Enunciado sexta iteración](https://docs.google.com/document/d/1NxqhJj70kt-_4aw-CawlISdJZyedzoOcLAVJAZVZISE/edit?usp=sharing)
+
+[Enuncuado quinta iteración](https://docs.google.com/document/d/1wS622pMwZrDK9ilL_hEt5bBE04vKUKZILx8cIQ-aQzU/edit?usp=sharing)
