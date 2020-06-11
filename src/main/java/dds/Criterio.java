@@ -1,5 +1,5 @@
 package dds;
 
-public interface Clasificador {
+public interface Criterio {
     public boolean clasificarPrenda(Prenda unaPrenda);
 }

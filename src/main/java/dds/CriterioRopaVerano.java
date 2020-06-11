@@ -1,6 +1,6 @@
 package dds;
 
-public class ClasificadorRopaVerano implements Clasificador {
+public class CriterioRopaVerano implements Criterio {
 
     @Override
     public boolean clasificarPrenda(Prenda unaPrenda) {

@@ -3,12 +3,12 @@ package dds;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ClasificadorRopaEntrecasa implements  Clasificador{
+public class CriterioRopaEntrecasa implements Criterio {
 
     List<TipoPrenda> tiposPrendasParaCasa = new ArrayList<>();
     //public Prenda (TipoPrenda tipoPrenda, TipoMaterial material, Color colorPrincipal, TramaTela trama)
 
-    public ClasificadorRopaEntrecasa() {
+    public CriterioRopaEntrecasa() {
         tiposPrendasParaCasa.add(TipoPrenda.OJOTAS);
         tiposPrendasParaCasa.add(TipoPrenda.PANTUFLAS);
         tiposPrendasParaCasa.add(TipoPrenda.REMERA);
