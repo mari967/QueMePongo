@@ -17,14 +17,17 @@ public class AccuProveedorDelClima implements ProveedorDelClima {
 
     public AccuProveedorDelClima(Duration horasDeValidez) {
         this.periodoValidezHoras = horasDeValidez;
+        proximaExpiracion = LocalDateTime.now().plus(this.periodoValidezHoras);
     }
 
     private List<Map<String, Object>> condicionesClimaticas(String ciudad) {
-        if(expirado(proximaExpiracion) || ultimaCondicionClimatica == null)
-            return ultimaCondicionClimatica;
 
-        ultimaCondicionClimatica = apiAccuWeather.getWeather(ciudad);
-        proximaExpiracion = LocalDateTime.now().plus(this.periodoValidezHoras);
+        if(expirado(proximaExpiracion) || ultimaCondicionClimatica == null)
+        {
+            ultimaCondicionClimatica = apiAccuWeather.getWeather(ciudad);
+            proximaExpiracion = LocalDateTime.now().plus(this.periodoValidezHoras);
+            return ultimaCondicionClimatica;
+        }
         return ultimaCondicionClimatica;
     }
 

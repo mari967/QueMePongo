@@ -3,13 +3,18 @@
   <component name="ChangeListManager">
     <list default="true" id="1fb36386-989d-45af-8733-7d2255780139" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dds/Clasificador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dds/Criterio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dds/ClasificadorRopaEntrecasa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dds/CriterioRopaEntrecasa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dds/ClasificadorRopaInvierno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dds/CriterioRopaInvierno.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dds/ClasificadorRopaVerano.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dds/CriterioRopaVerano.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Exceptions/CategoriaPrendaExistenteEnAtuendoException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Exceptions/ColorPrincipalNuloException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Exceptions/MaterialNuloException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Exceptions/PrendaNoAptaParaTempActualException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Exceptions/TipoPrendaCategoriaNoCondicen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Exceptions/TipoPrendaNuloException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dds/AccuProveedorDelClima.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dds/AccuProveedorDelClima.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dds/CriterioRopaVerano.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dds/CriterioRopaVerano.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dds/Guardarropa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dds/Guardarropa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dds/PropuestaPrenda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dds/Recomendacion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dds/Prenda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dds/Prenda.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dds/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dds/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dds/TerceraIteracionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dds/TerceraIteracionTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,48 +29,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dds/Guardarropa.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/dds/QuintaIteracionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="1056">
+              <caret line="123" column="46" selection-start-line="123" selection-start-column="46" selection-end-line="123" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#953#954#0" expanded="true" />
-                <element signature="e#974#975#0" expanded="true" />
+                <element signature="e#4173#4174#0" expanded="true" />
+                <element signature="e#4241#4242#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/List.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="242" column="24" selection-start-line="242" selection-start-column="24" selection-end-line="242" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/dds/Usuario.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+            <state relative-caret-position="136">
+              <caret line="38" column="44" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1114#1115#0" expanded="true" />
-                <element signature="e#1153#1154#0" expanded="true" />
+                <element signature="e#403#404#0" expanded="true" />
+                <element signature="e#430#431#0" expanded="true" />
+                <element signature="e#1071#1072#0" expanded="true" />
+                <element signature="e#1128#1129#0" expanded="true" />
+                <element signature="e#1488#1489#0" expanded="true" />
+                <element signature="e#1539#1540#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dds/Criterio.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dds/Exceptions/GuardarropasNoExisteExeption.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+            <state relative-caret-position="85">
+              <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+              <folding>
+                <element signature="e#156#157#0" expanded="true" />
+                <element signature="e#179#180#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -73,8 +77,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dds/CriterioRopaEntrecasa.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+            <state relative-caret-position="272">
+              <caret line="16" column="52" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -83,19 +87,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="323">
-                <caret line="19" selection-start-line="19" selection-end-line="19" />
-              </first_editor>
-              <second_editor>
-                <markdownNavigatorState>
-                  <previewPanelState version="3.0.191.72">
-                    <jsState>{&quot;onLoadScroll&quot;:{&quot;x&quot;:0,&quot;y&quot;:0}}</jsState>
-                  </previewPanelState>
-                </markdownNavigatorState>
-              </second_editor>
+        <entry file="file://$PROJECT_DIR$/src/main/java/dds/Exceptions/TipoPrendaCategoriaNoCondicenException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -103,8 +98,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dds/Recomendacion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+            <state relative-caret-position="68">
+              <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dds/CriterioRopaInvierno.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -112,38 +116,30 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dds/RecomendacionAgregar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="170">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dds/CriterioRopaVerano.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
               <folding>
-                <element signature="e#310#311#0" expanded="true" />
-                <element signature="e#375#376#0" expanded="true" />
-                <element signature="e#420#421#0" expanded="true" />
-                <element signature="e#471#472#0" expanded="true" />
+                <element signature="e#137#138#0" expanded="true" />
+                <element signature="e#195#196#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dds/RecomendacionQuitar.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/dds/TerceraIteracionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-              <folding>
-                <element signature="e#377#378#0" expanded="true" />
-                <element signature="e#406#407#0" expanded="true" />
-                <element signature="e#486#487#0" expanded="true" />
-                <element signature="e#552#553#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dds/Prenda.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="104" />
+            <state relative-caret-position="-219">
+              <caret line="40" column="25" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -189,9 +185,7 @@
         <option value="$PROJECT_DIR$/src/main/AccuProveedorDelClima.java" />
         <option value="$PROJECT_DIR$/src/test/TerceraIteracionTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/dds/AccuProveedorDelClima.java" />
         <option value="$PROJECT_DIR$/src/main/java/dds/Atuendo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dds/Prenda.java" />
         <option value="$PROJECT_DIR$/src/main/java/dds/ClasificadorRopaVerano.java" />
         <option value="$PROJECT_DIR$/src/main/java/dds/ClasificadorRopaInvierno.java" />
         <option value="$PROJECT_DIR$/src/main/java/dds/TipoPrenda.java" />
@@ -203,17 +197,23 @@
         <option value="$PROJECT_DIR$/src/main/java/dds/Exceptions/ColorPrincipalNuloException.java" />
         <option value="$PROJECT_DIR$/src/main/java/dds/Exceptions/CategoriaPrendaExistenteEnAtuendoException.java" />
         <option value="$PROJECT_DIR$/src/main/java/dds/Exceptions/MaterialNuloException.java" />
-        <option value="$PROJECT_DIR$/src/test/java/dds/TerceraIteracionTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/dds/TipoDePropuesta.java" />
         <option value="$PROJECT_DIR$/src/main/java/dds/PropuestaPrenda.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/dds/Clasificador.java" />
         <option value="$PROJECT_DIR$/src/main/java/dds/Criterio.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dds/Guardarropa.java" />
         <option value="$PROJECT_DIR$/src/main/java/dds/Recomendacion.java" />
         <option value="$PROJECT_DIR$/src/main/java/dds/RecomendacionAgregar.java" />
         <option value="$PROJECT_DIR$/src/main/java/dds/RecomendacionQuitar.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dds/AccuProveedorDelClima.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dds/Guardarropa.java" />
+        <option value="$PROJECT_DIR$/src/test/java/dds/TerceraIteracionTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dds/Prenda.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dds/CriterioRopaVerano.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dds/Exceptions/GuardarropasNoExisteExeption.java" />
         <option value="$PROJECT_DIR$/src/main/java/dds/Usuario.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dds/CriterioRopaEntrecasa.java" />
+        <option value="$PROJECT_DIR$/src/test/java/dds/QuintaIteracionTest.java" />
       </list>
     </option>
   </component>
@@ -235,7 +235,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
@@ -286,6 +286,15 @@
               <item name="QueMePongo" type="b2602c69:ProjectViewProjectNode" />
               <item name="QueMEPongo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dds" type="462c0819:PsiDirectoryNode" />
+              <item name="Exceptions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QueMePongo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QueMEPongo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -302,11 +311,6 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="dds" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="QueMePongo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="QueMEPongo" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -333,9 +337,89 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TerceraIteracionTest.unaCamperaEsAptaConTempBaja">
+  <component name="RunManager" selected="JUnit.QuintaIteracionTest.puedoDeshacerRecomendaciones">
+    <configuration name="QuintaIteracionTest.puedoAceptarRecomendacion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QueMePongo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dds.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dds" />
+      <option name="MAIN_CLASS_NAME" value="dds.QuintaIteracionTest" />
+      <option name="METHOD_NAME" value="puedoAceptarRecomendacion" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuintaIteracionTest.puedoDeshacerRecomendaciones" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QueMePongo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dds.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dds" />
+      <option name="MAIN_CLASS_NAME" value="dds.QuintaIteracionTest" />
+      <option name="METHOD_NAME" value="puedoDeshacerRecomendaciones" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuintaIteracionTest.puedoRechazarRecomendacion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QueMePongo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dds.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dds" />
+      <option name="MAIN_CLASS_NAME" value="dds.QuintaIteracionTest" />
+      <option name="METHOD_NAME" value="puedoRechazarRecomendacion" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuintaIteracionTest.puedoVerLasRecomendacionesPendientes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QueMePongo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dds.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dds" />
+      <option name="MAIN_CLASS_NAME" value="dds.QuintaIteracionTest" />
+      <option name="METHOD_NAME" value="puedoVerLasRecomendacionesPendientes" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuintaIteracionTest.unUsuarioProponeQuitarUnaPrendaAOtroUsuario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QueMePongo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dds.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dds" />
+      <option name="MAIN_CLASS_NAME" value="dds.QuintaIteracionTest" />
+      <option name="METHOD_NAME" value="unUsuarioProponeQuitarUnaPrendaAOtroUsuario" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TerceraIteracionTest.unaCamperaEsAptaConTempBaja" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
-      <module name="QMP" />
+      <module name="QueMePongo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="dds.*" />
@@ -346,29 +430,26 @@
       <option name="MAIN_CLASS_NAME" value="dds.TerceraIteracionTest" />
       <option name="METHOD_NAME" value="unaCamperaEsAptaConTempBaja" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TerceraIteracionTest.unaCamperaNoEsAptaConTempAlta" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="QMP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dds.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dds" />
-      <option name="MAIN_CLASS_NAME" value="dds.TerceraIteracionTest" />
-      <option name="METHOD_NAME" value="unaCamperaNoEsAptaConTempAlta" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="JUnit.TerceraIteracionTest.unaCamperaEsAptaConTempBaja" />
+      <item itemvalue="JUnit.QuintaIteracionTest.unUsuarioProponeQuitarUnaPrendaAOtroUsuario" />
+      <item itemvalue="JUnit.QuintaIteracionTest.puedoVerLasRecomendacionesPendientes" />
+      <item itemvalue="JUnit.QuintaIteracionTest.puedoAceptarRecomendacion" />
+      <item itemvalue="JUnit.QuintaIteracionTest.puedoRechazarRecomendacion" />
+      <item itemvalue="JUnit.QuintaIteracionTest.puedoDeshacerRecomendaciones" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TerceraIteracionTest.unaCamperaNoEsAptaConTempAlta" />
+        <item itemvalue="JUnit.QuintaIteracionTest.puedoDeshacerRecomendaciones" />
+        <item itemvalue="JUnit.QuintaIteracionTest.puedoRechazarRecomendacion" />
+        <item itemvalue="JUnit.QuintaIteracionTest.puedoAceptarRecomendacion" />
+        <item itemvalue="JUnit.QuintaIteracionTest.puedoVerLasRecomendacionesPendientes" />
+        <item itemvalue="JUnit.QuintaIteracionTest.unUsuarioProponeQuitarUnaPrendaAOtroUsuario" />
       </list>
     </recent_temporary>
   </component>
@@ -386,14 +467,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TerceraIteracionTest_unaCamperaNoEsAptaConTempAlta - 2020.05.26 at 17h 56m 35s.xml">
-      <configuration name="TerceraIteracionTest.unaCamperaNoEsAptaConTempAlta" configurationId="JUnit" />
+    <history-entry file="QuintaIteracionTest_noPuedoAgregarRopaDeVeranoAlGuardarropasDeInvierno - 2020.06.15 at 20h 11m 36s.xml">
+      <configuration name="QuintaIteracionTest.noPuedoAgregarRopaDeVeranoAlGuardarropasDeInvierno" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TerceraIteracionTest_unaCamperaNoEsAptaConTempAlta - 2020.05.26 at 18h 32m 53s.xml">
-      <configuration name="TerceraIteracionTest.unaCamperaNoEsAptaConTempAlta" configurationId="JUnit" />
+    <history-entry file="QuintaIteracionTest_puedoAgregarVariosGuardarropasAUnUsuario - 2020.06.15 at 20h 16m 10s.xml">
+      <configuration name="QuintaIteracionTest.puedoAgregarVariosGuardarropasAUnUsuario" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TerceraIteracionTest_unaCamperaNoEsAptaConTempAlta - 2020.05.26 at 18h 39m 10s.xml">
-      <configuration name="TerceraIteracionTest.unaCamperaNoEsAptaConTempAlta" configurationId="JUnit" />
+    <history-entry file="QuintaIteracionTest_unUsuarioProponeUnaPrendaAOtroUsuario - 2020.06.15 at 20h 28m 29s.xml">
+      <configuration name="QuintaIteracionTest.unUsuarioProponeUnaPrendaAOtroUsuario" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QuintaIteracionTest_unUsuarioProponeUnaPrendaAOtroUsuario - 2020.06.15 at 20h 29m 26s.xml">
+      <configuration name="QuintaIteracionTest.unUsuarioProponeUnaPrendaAOtroUsuario" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QuintaIteracionTest_unUsuarioProponeQuitarUnaPrendaAOtroUsuario - 2020.06.15 at 20h 40m 09s.xml">
+      <configuration name="QuintaIteracionTest.unUsuarioProponeQuitarUnaPrendaAOtroUsuario" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QuintaIteracionTest_unUsuarioProponeQuitarUnaPrendaAOtroUsuario - 2020.06.15 at 20h 40m 44s.xml">
+      <configuration name="QuintaIteracionTest.unUsuarioProponeQuitarUnaPrendaAOtroUsuario" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QuintaIteracionTest_puedoVerLasRecomendacionesPendientes - 2020.06.15 at 20h 57m 39s.xml">
+      <configuration name="QuintaIteracionTest.puedoVerLasRecomendacionesPendientes" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QuintaIteracionTest_puedoAceptarRecomendacion - 2020.06.15 at 21h 20m 03s.xml">
+      <configuration name="QuintaIteracionTest.puedoAceptarRecomendacion" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QuintaIteracionTest_puedoRechazarRecomendacion - 2020.06.15 at 21h 21m 40s.xml">
+      <configuration name="QuintaIteracionTest.puedoRechazarRecomendacion" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QuintaIteracionTest_puedoDeshacerRecomendaciones - 2020.06.15 at 21h 23m 30s.xml">
+      <configuration name="QuintaIteracionTest.puedoDeshacerRecomendaciones" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -405,19 +507,20 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.2685325" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.27231467" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Dependency Viewer" weight="0.3289689" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="5" weight="0.3289689" />
-      <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="5" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3289689" />
       <window_info anchor="bottom" id="SOQL Query" order="11" />
       <window_info anchor="bottom" id="Log Analyzer" order="12" weight="0.3289689" />
       <window_info anchor="bottom" id="Anonymous Apex" order="13" />
@@ -494,13 +597,6 @@
     <entry file="file://$PROJECT_DIR$/src/test/TerceraIteracionTest.java" />
     <entry file="file://$PROJECT_DIR$/src/test/SegundaIteracionTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/AccuProveedorDelClima.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/dds/ProveedorDelClima.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dds/AccuWeatherAPI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -514,17 +610,6 @@
           <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dds/CriterioRopaVerano.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-          <folding>
-            <element signature="e#145#146#0" expanded="true" />
-            <element signature="e#173#174#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -564,16 +649,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dds/AccuProveedorDelClima.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dds/Exceptions/TipoPrendaNuloExceptionException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -592,17 +667,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dds/CriterioRopaInvierno.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#147#148#0" expanded="true" />
-            <element signature="e#205#206#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dds/TipoDePropuesta.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -617,33 +681,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dds/Exceptions/TipoPrendaCategoriaNoCondicenException.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="3723">
+          <caret line="242" column="24" selection-start-line="242" selection-start-column="24" selection-end-line="242" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/dds/TerceraIteracionTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dds/Criterio.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="34">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="323">
+          <first_editor>
             <caret line="19" selection-start-line="19" selection-end-line="19" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState>
               <previewPanelState version="3.0.191.72">
-                <jsState>{&quot;onLoadScroll&quot;:{&quot;x&quot;:0,&quot;y&quot;:0}}</jsState>
+                <jsState>{&quot;onLoadScroll&quot;:{&quot;x&quot;:0,&quot;y&quot;:37.5}}</jsState>
               </previewPanelState>
             </markdownNavigatorState>
           </second_editor>
@@ -655,93 +716,153 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dds/Criterio.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dds/RecomendacionQuitar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dds/ProveedorDelClima.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dds/CriterioRopaEntrecasa.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dds/AccuProveedorDelClima.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+        <state relative-caret-position="191">
+          <caret line="19" column="79" selection-start-line="19" selection-start-column="79" selection-end-line="19" selection-end-column="79" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1200#1201#0" expanded="true" />
+            <element signature="e#1346#1347#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/List.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/dds/SegundaIteracionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="242" column="24" selection-start-line="242" selection-start-column="24" selection-end-line="242" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dds/Prenda.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="104" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dds/Guardarropa.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="240">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#953#954#0" expanded="true" />
-            <element signature="e#974#975#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dds/Recomendacion.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dds/Prenda.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+        <state relative-caret-position="-34">
+          <caret line="18" column="87" selection-start-line="18" selection-start-column="87" selection-end-line="18" selection-end-column="87" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dds/RecomendacionAgregar.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dds/CriterioRopaVerano.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
+          <folding>
+            <element signature="e#137#138#0" expanded="true" />
+            <element signature="e#195#196#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dds/CriterioRopaInvierno.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dds/Exceptions/GuardarropasNoExisteExeption.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+          <folding>
+            <element signature="e#156#157#0" expanded="true" />
+            <element signature="e#179#180#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dds/Exceptions/TipoPrendaCategoriaNoCondicenException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dds/CriterioRopaEntrecasa.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <caret line="16" column="52" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
           <folding>
-            <element signature="e#310#311#0" expanded="true" />
-            <element signature="e#375#376#0" expanded="true" />
-            <element signature="e#420#421#0" expanded="true" />
-            <element signature="e#471#472#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dds/RecomendacionQuitar.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/dds/TerceraIteracionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="-219">
+          <caret line="40" column="25" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
           <folding>
-            <element signature="e#377#378#0" expanded="true" />
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#486#487#0" expanded="true" />
-            <element signature="e#552#553#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dds/Usuario.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+        <state relative-caret-position="136">
+          <caret line="38" column="44" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1114#1115#0" expanded="true" />
-            <element signature="e#1153#1154#0" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
+            <element signature="e#430#431#0" expanded="true" />
+            <element signature="e#1071#1072#0" expanded="true" />
+            <element signature="e#1128#1129#0" expanded="true" />
+            <element signature="e#1488#1489#0" expanded="true" />
+            <element signature="e#1539#1540#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dds/Recomendacion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dds/RecomendacionAgregar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/dds/QuintaIteracionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1056">
+          <caret line="123" column="46" selection-start-line="123" selection-start-column="46" selection-end-line="123" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4173#4174#0" expanded="true" />
+            <element signature="e#4241#4242#0" expanded="true" />
           </folding>
         </state>
       </provider>

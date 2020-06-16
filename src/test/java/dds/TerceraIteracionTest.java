@@ -20,7 +20,7 @@ public class TerceraIteracionTest {
 
     private Atuendo unAtuendo;
     private ProveedorDelClima proveedorAccu;
-    ProveedorDelClima mockitoProveedor;
+    private ProveedorDelClima mockitoProveedor;
     private Prenda zapatillasRojas;
     private Prenda remeraAzul;
     private Prenda otraRemera;
@@ -49,7 +49,8 @@ public class TerceraIteracionTest {
 
     @Test
     public void esPosibleObtenerTempDeBuenosAires() {
-       Assert.assertNotNull(proveedorAccu.getTemperaturaCelcius(CIUDAD_BS_AS));
+       double temp =  proveedorAccu.getTemperaturaCelcius(CIUDAD_BS_AS);
+       System.out.println(temp); //todo Cambiar este test
     }
 
     @Test
@@ -58,13 +59,13 @@ public class TerceraIteracionTest {
         unAtuendo.agregarPrenda(chupin);
     }
 
-    @Test (expected = CategoriaPrendaExistenteEnAtuendoException.class)
+    @Test (expected = main.Exceptions.CategoriaPrendaExistenteEnAtuendoException.class)
     public void noPuedenHaberPrendasConCategoriaRepetida() {
      unAtuendo.agregarPrenda(remeraAzul);
      unAtuendo.agregarPrenda(otraRemera);
     }
 
-    @Test (expected = PrendaNoAptaParaTempActualException.class)
+    @Test (expected = main.Exceptions.PrendaNoAptaParaTempActualException.class)
     public void unaCamperaNoEsAptaConTempAlta() { //Acá mockeamos el proveedor del clima
 
         when(mockitoProveedor.getTemperaturaCelcius(CIUDAD_BS_AS)).thenReturn(24.1);

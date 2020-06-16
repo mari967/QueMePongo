@@ -30,8 +30,4 @@ public class Guardarropa implements Cloneable{
         prendas.remove(prenda);
     }
 
-    @Override
-    protected Object clone() throws CloneNotSupportedException {
-        return super.clone();
-    }
 }
